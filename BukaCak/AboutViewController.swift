@@ -16,22 +16,22 @@ struct About {
     let text: String
 }
 
-let aboutMe: About = About(image: #imageLiteral(resourceName: "profile"), title: "My name is Buka Cakrawala 😉", text: "Hi, I'm a 17 year old sofware developer based in San Francisco, CA. I was born in Indonesia🇮🇩 and currently studying at a Programming School called Make School in downtown San Francisco.\n\nMy passions lie in programming especially iOS, backend, and UI/UX design. I relish working in collaborative environments with other creative minds. Additionally I'm a huge fan of Sherlock Holmes🕵🏻.")
+let aboutMe: About = About(image: #imageLiteral(resourceName: "profile"), title: "I am C. Sriteja", text: " I'm a 21 year old sofware developer based in India. I have completed my graduation recently from SRM University. I am a confident and self motivated individual and love to make my hands dirty with tech toys.")
 
-let hackathons: About = About(image: #imageLiteral(resourceName: "calhacks"), title: "Hackathons 🎧🤖", text: "Going to hackathons is one of my favorite hobby. Visiting university campus, meet with incredible and talented people, and having the chance of working with them for a project is extremely fun for me. \n\nHackathon is also the opportunity for me to learn technologies, and through hackathon I discovered Arduino for the first time.\n\nI won my first hackathon at CalHacks hosted by UC Berkeley for the best technology using finger print sensor. Our idea was originally replaced the use of credit cards with finger print. My team and I believed that with finger print is a safer way to do money transaction.")
+let interests: About = About(image: #imageLiteral(resourceName: "calhacks"), title: "Interests : Artificial Intelligence ", text: "The very thought of bringing most of intelligent behaviour we see in humans to machine for making good accurate predictions during the face of uncertainty like understanding the context of text /speech , picking up an object without specifying the mathematical co ordinates or tracking the spots of the floor that have already been swept has always fascinated me. Using large clusters of irregular data, visualise them and come to conclusions is something I found much beyond interesting in recent past.")
 
 
-let hobby: About = About(image: #imageLiteral(resourceName: "yellowPencil"), title: "Hobby⚽️", text: "Besides of doing programming, I always have a couple of hobbies that I like to do usually during the weekend. I love to play soccer. One of the reason why I love soccer is because I grew up in Indonesia, where soccer is the most popular sport in my country. I also enjoy doing graphic design. Making things look beautiful is really satisfying for me.🌞")
+let hobby: About = About(image: #imageLiteral(resourceName: "yellowPencil"), title: "Hobbies", text: "Besides doing hours and hours of programming, I love watching movies, travelling and playing cricket. I am big foodie and love to explore different cuisines and restaurants. Apart from all these i love playing games on my Xbox One. ")
 
-let inspiration: About = About(image: #imageLiteral(resourceName: "bulb"), title: "👨🏼‍💻Inspiration", text: "My biggest inspiration person is Thomas Alva Edison. The person who taught me that everything in life is possible as long as you believe what you're doing is right and you put a 100% effort into it. He makes me think to try at least one more time wherever I failed or did something wrong.")
+let inspiration: About = About(image: #imageLiteral(resourceName: "bulb"), title: "👨🏼‍💻Inspiration", text: "Stay Hungry , Stay foolish. Steve jobs has always been my inspiration. I am restless individual and would love to leave a dent on this planet during my time just like how steve did. Steve's 2005 commencement video is stored safely and time in and time out, when i feel low, I keep watching it just to motivate myself and lift my spirit")
 
-let futurePlan: About = About(image: #imageLiteral(resourceName: "building"), title: "Future Plan", text: "My future plan is to become a good iOS developer as I really enjoy doing mobile apps development. I will never stop creating cool apps and ship it in the App Store, code in Swift everyday, learn by making!.\n\nLearn by doing in my opinion is the best practice for anyone to always get better in programming.I am indeed looking for internship opportunity in 2017's upcoming summer in order for me to increase my engineering skills into a higher level.\n\nAt the moment, I am studying Data Structure and Probability in Python, further iOS, and IoT devices.")
+let futurePlan: About = About(image: #imageLiteral(resourceName: "building"), title: "Future Plan", text: "I Love working on challenging projects. I want to take up challenging projects to develop intelligent systems.I want to pursue research in fields of Machine learning and work under some renowed professor for Phd degree.")
 
 
 
 class AboutViewController: UIViewController {
     
-    let aboutLists:[About] = [aboutMe, hackathons, hobby, inspiration, futurePlan]
+    let aboutLists:[About] = [aboutMe, interests, hobby, inspiration, futurePlan]
     
     @IBOutlet weak var dismissButton: UIButton!
     

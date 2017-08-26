@@ -253,7 +253,7 @@
 				TargetAttributes = {
 					C6C119081E1449AA0041709B = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = T9R33YRSR8;
+						DevelopmentTeam = 5L5FPMLK7F;
 						ProvisioningStyle = Automatic;
 					};
 					C6C1191C1E1449AB0041709B = {
@@ -487,7 +487,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T9R33YRSR8;
+				DEVELOPMENT_TEAM = 5L5FPMLK7F;
 				INFOPLIST_FILE = BukaCak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.BukaCak;
@@ -500,7 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = T9R33YRSR8;
+				DEVELOPMENT_TEAM = 5L5FPMLK7F;
 				INFOPLIST_FILE = BukaCak/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaka.BukaCak;

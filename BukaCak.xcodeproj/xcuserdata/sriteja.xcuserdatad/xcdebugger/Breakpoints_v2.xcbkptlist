@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BukaCak/ViewController.swift"
+            timestampString = "525379881.870534"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BukaCak.ViewController.myText.getter : Swift.String"
+                  moduleName = "BukaCak"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sriteja/Desktop/bukacak/BukaCak/ViewController.swift"
+                  timestampString = "525379493.393975"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BukaCak.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; BukaCak.ViewController"
+                  moduleName = "BukaCak"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sriteja/Desktop/bukacak/BukaCak/ViewController.swift"
+                  timestampString = "525379493.396319"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "198">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BukaCak.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;BukaCak.ViewController&gt;"
+                  moduleName = "BukaCak"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sriteja/Desktop/bukacak/BukaCak/ViewController.swift"
+                  timestampString = "525379493.399605"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

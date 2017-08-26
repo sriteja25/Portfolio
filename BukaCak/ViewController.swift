@@ -22,7 +22,11 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     var effect: UIVisualEffect!
     
     let myText = " swift"
-    let codingText = "    1> let me = Awesomeness()\n\n    2> me.deliver(message: \"Hello, \", to: \"world!\")\n\n    3> let welcome = UIAlertController(title: \"Welcome\", message: helloLanguage(), preferredStyle: .alert)\n\n    4> func helloLanguage() -> String {\n         if me.language == .english {\n            return \"Hello\"\n         } else if me.language == .spanish {\n            return \"Hola\"\n         } else {\n            return \"Welcome\"\n         }\n       }\n\n    ^D"
+    
+    let codingText = "    1.0> let me = Awesome() \n \n    2.0> i.welcome(message: \"Hello , \", to : \"Everyone!\" \n \n    3.0> let begin = UIAlertController(title: \"Welcome\", message: toMyProfile(), preferredStyle: .alert)\n\n    ....Loading  "
+    
+    
+    //let codingText = "    1> let me = Awesomeness()\n\n    2> me.deliver(message: \"Hello, \", to: \"world!\")\n\n    3> let welcome = UIAlertController(title: \"Welcome\", message: helloLanguage(), preferredStyle: .alert)\n\n    4> func helloLanguage() -> String {\n         if me.language == .english {\n            return \"Hello\"\n         } else if me.language == .spanish {\n            return \"Hola\"\n         } else {\n            return \"Welcome\"\n         }\n       }\n\n    ^D"
     
     var myCounter = 0
     var timer:Timer?
@@ -78,7 +82,7 @@ class ViewController: UIViewController, UIViewControllerTransitioningDelegate {
     func codeLetter() {
         if anotherCounter < (Array(codingText.characters)).count {
             codingTextView.text = codingTextView.text! + String(Array(codingText.characters)[anotherCounter])
-            let interval = 0.03
+            let interval = 0.06
             anotherTimer?.invalidate()
             anotherTimer = Timer.scheduledTimer(timeInterval: interval, target: self, selector: #selector(ViewController.codeLetter), userInfo: nil, repeats: false)
         } else {

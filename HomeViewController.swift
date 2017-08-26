@@ -72,7 +72,7 @@ class HomeViewController: UIViewController, UIViewControllerTransitioningDelegat
             if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeTwitter) {
                 // initialize the default view controller for sharing the post.
                 let twitterComposeVC = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-                twitterComposeVC?.setInitialText("@bukacak ")
+                twitterComposeVC?.setInitialText("@sriteja96 ")
                 self.present(twitterComposeVC!, animated: true, completion: nil)
                 
             } else {
@@ -87,7 +87,7 @@ class HomeViewController: UIViewController, UIViewControllerTransitioningDelegat
             if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeFacebook) {
                 
                 let facebookComposeVC = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
-                facebookComposeVC?.setInitialText("@Buka Cakrawala ")
+                facebookComposeVC?.setInitialText("@sriteja25 ")
                 self.present(facebookComposeVC!, animated: true, completion: nil)
                 
             } else {

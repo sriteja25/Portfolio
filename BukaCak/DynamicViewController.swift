@@ -18,10 +18,17 @@ class DynamicViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    var pakrButton  = BallButton()
+    /*var pakrButton  = BallButton()
     var ipsmaButton = BallButton()
     var whampButton = BallButton()
-    var alfaButton  = BallButton()
+    var alfaButton  = BallButton()*/
+    
+    var SUNYKorea = BallButton()
+    var finatext = BallButton()
+    var frasen = BallButton()
+    var majorProject = BallButton()
+    var PCA = BallButton()
+    var minorProject = BallButton()
     
     lazy var animator: UIDynamicAnimator = {
         return UIDynamicAnimator(referenceView: self.view)
@@ -62,23 +69,33 @@ class DynamicViewController: UIViewController {
         drawButton()
         animateButton()
         
-        pakrButton.addTarget(self, action: #selector(parkrAction), for: .touchUpInside)
-        ipsmaButton.addTarget(self, action: #selector(ipsmaAction), for: .touchUpInside)
-        whampButton.addTarget(self, action: #selector(whampAction), for: .touchUpInside)
-        alfaButton.addTarget(self, action: #selector(alfaAction), for: .touchUpInside)
+        SUNYKorea.addTarget(self, action: #selector(SUNYAction), for: .touchUpInside)
+        finatext.addTarget(self, action: #selector(finatextAction), for: .touchUpInside)
+        frasen.addTarget(self, action: #selector(frasenAction), for: .touchUpInside)
+        majorProject.addTarget(self, action: #selector(majorProjectAction), for: .touchUpInside)
+        PCA.addTarget(self, action: #selector(PCAAction), for: .touchUpInside)
+        minorProject.addTarget(self, action: #selector(minorProjectAction), for: .touchUpInside)
+        
+        
         
     
-        pakrButton.setTitle("PARKR", for: .normal)
-        pakrButton.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
+        SUNYKorea.setTitle("Grocery Store", for: .normal)
+        SUNYKorea.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
         
-        ipsmaButton.setTitle("Ipsma", for: .normal)
-        ipsmaButton.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
+        finatext.setTitle("PFA App", for: .normal)
+        finatext.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
         
-        whampButton.setTitle("Whamp!", for: .normal)
-        whampButton.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
+        frasen.setTitle("iOS Developer", for: .normal)
+        frasen.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
         
-        alfaButton.setTitle("Alfa News", for: .normal)
-        alfaButton.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
+        majorProject.setTitle("Recommender system", for: .normal)
+        majorProject.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
+        
+        PCA.setTitle("PCA-MCA", for: .normal)
+        PCA.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
+        
+        minorProject.setTitle("E-Commerce", for: .normal)
+        minorProject.titleLabel?.font = UIFont(name: "Avenir Next", size: 18)
         
         
         
@@ -91,29 +108,36 @@ class DynamicViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func parkrAction() {
+    func SUNYAction() {
         let url = URL(string: "https://github.com/tlambrou/PARKR")
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
     }
     
-    func ipsmaAction() {
+    func finatextAction() {
         let url = URL(string: "https://devpost.com/software/ipsma-invites")
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
     }
-    func whampAction() {
-        print("whamp")
+    func frasenAction() {
         let url = URL(string: "https://itunes.apple.com/us/app/whamp!/id1141533832?mt=8")
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
     }
     
-    func alfaAction() {
+    func majorProjectAction() {
+        let url = URL(string: "https://itunes.apple.com/us/app/alfa-news/id1187632337?ls=1&mt=8")
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+    }
+    func PCAAction() {
+        let url = URL(string: "https://itunes.apple.com/us/app/alfa-news/id1187632337?ls=1&mt=8")
+        UIApplication.shared.open(url!, options: [:], completionHandler: nil)
+    }
+    func minorProjectAction() {
         let url = URL(string: "https://itunes.apple.com/us/app/alfa-news/id1187632337?ls=1&mt=8")
         UIApplication.shared.open(url!, options: [:], completionHandler: nil)
     }
     
     func drawButton() {
-        let buttons = [pakrButton, ipsmaButton, whampButton, alfaButton]
-        let colors = [UIColor.blue, UIColor.orange, UIColor.red, UIColor.green]
+        let buttons = [SUNYKorea, finatext, frasen , majorProject,PCA, minorProject]
+        let colors = [UIColor.blue, UIColor.orange, UIColor.red, UIColor.green,UIColor.gray,UIColor.magenta]
         
         var count = 0
         
@@ -132,7 +156,7 @@ class DynamicViewController: UIViewController {
             button.frame = frame
             button.backgroundColor = colors[count]
             count += 1
-            button.layer.cornerRadius = pakrButton.bounds.size.height / 2
+            button.layer.cornerRadius = SUNYKorea.bounds.size.height / 2
             
             self.view.addSubview(button)
         }
@@ -145,10 +169,12 @@ class DynamicViewController: UIViewController {
         
         for behavior in behaviors {
             animator.addBehavior(behavior as! UIDynamicBehavior)
-            (behavior as AnyObject).addItem(pakrButton)
-            (behavior as AnyObject).addItem(ipsmaButton)
-            (behavior as AnyObject).addItem(whampButton)
-            (behavior as AnyObject).addItem(alfaButton)
+            (behavior as AnyObject).addItem(SUNYKorea)
+            (behavior as AnyObject).addItem(finatext)
+            (behavior as AnyObject).addItem(frasen)
+            (behavior as AnyObject).addItem(majorProject)
+            (behavior as AnyObject).addItem(PCA)
+            (behavior as AnyObject).addItem(minorProject)
             updateMotion()
         }
         

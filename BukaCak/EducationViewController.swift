@@ -21,11 +21,11 @@ struct School {
     
 }
 
-let product = School(schoolName: "Product Academy",schoolPlace: "San Francisco, CA",schoolYear: "2016 - present",schoolStory: "2 year college replacement program for developer and entrepreneurs.\n• Data Structure & Probability in Python\n• Further iOS Devlopment\n• iOS Animation\n• IoT in C++", latitude: 37.7735142, longtitude: -122.4178074)
+let product = School(schoolName: "SRM University",schoolPlace: "Chennai, India",schoolYear: "2013 - 2017",schoolStory: "Pursued Computer Science % Engineering. \n CGPA : 8.75 / 10 \n Major Project : Building a recommender system (GPA : 10). \n Was Part of App Development club", latitude: 12.8259, longtitude: 80.0395)
 
-let summer = School(schoolName: "Summer Academy",schoolPlace: "San Francisco, CA",schoolYear: "2016(2 months)", schoolStory: "The Make School Summer Academy is designed to teach product development to high school and college students passionate about technology.\n • SpriteKit\n • UIKit", latitude: 37.7735142, longtitude: -122.4178074)
+let summer = School(schoolName: "High School",schoolPlace: "Hyderabad, India",schoolYear: "2011-2013", schoolStory: "Major : Mathematics, Physics, Chemistry \n Percentage : 94.6/100 ", latitude: 17.4408, longtitude: 78.4917)
 
-let inti = School(schoolName: "Inti University", schoolPlace: "KL, Malaysia",schoolYear: "2015 -2016",schoolStory: "INTI International University & Colleges in Malaysia offers tertiary and pre- university courses with campuses in Malaysia. I attended INTI in 2015 - 2016 for foundational degree in Computer Science. \n\nCourses that I took:\n• Pre-Calculus\n• Chemistry\n• AP Computer Science\n• General Studies.", latitude: 3.0741922, longtitude: 101.5909564)
+let inti = School(schoolName: "Pre high School", schoolPlace: "Hyderabad, India",schoolYear: "2002-2011",schoolStory: "Passed 10th standard with a percentage of 93.3 \n Attended various speed math competitions. \n Was part of team that won intra school cricket competition.", latitude: 17.4491, longtitude: 78.5338)
 
 let schoolsList = [inti, summer, product]
 

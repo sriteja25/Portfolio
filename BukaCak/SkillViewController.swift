@@ -50,13 +50,13 @@ class SkillViewController: UIViewController {
         let circleWidth = CGFloat(self.view.frame.height / 4)
         let circleHeight = circleWidth
         
-        let oneCircle = SkillLoaderView(frame: CGRect(x: 0 + 10, y: ((self.view.bounds.height / 2) - (circleHeight / 2)) - 50, width: circleWidth, height: circleHeight), start: 0, end: 55, interval: 0.09, completion: 0.55, color: UIColor(red: 23 / 255.0, green: 168 / 255.0, blue: (248 / 255.0), alpha: 1.0), title: "Obj - C")
+        let oneCircle = SkillLoaderView(frame: CGRect(x: 0 + 10, y: ((self.view.bounds.height / 2) - (circleHeight / 2)) - 50, width: circleWidth, height: circleHeight), start: 0, end: 55, interval: 0.09, completion: 0.75, color: UIColor(red: 23 / 255.0, green: 168 / 255.0, blue: (248 / 255.0), alpha: 1.0), title: "Swift")
         
-        let twoCircle = SkillLoaderView(frame: CGRect(x: (self.view.bounds.width / 2) + 10, y: ((self.view.bounds.height / 2) - (circleHeight / 2)) - 50, width: circleWidth, height: circleHeight), start: 0, end: 100, interval: 0.05, completion: 1.0, color: UIColor.green, title: "Swift")
+        let twoCircle = SkillLoaderView(frame: CGRect(x: (self.view.bounds.width / 2) + 10, y: ((self.view.bounds.height / 2) - (circleHeight / 2)) - 50, width: circleWidth, height: circleHeight), start: 0, end: 100, interval: 0.05, completion: 0.45, color: UIColor.green, title: "Python")
         
-        let threeCircle = SkillLoaderView(frame: CGRect(x: 0 + 10, y: (self.view.bounds.height / 2) + (circleHeight / 2), width: circleWidth, height: circleHeight), start: 0, end: 70, interval: 0.0714, completion: 0.7, color: UIColor.yellow, title: "SQL")
+        let threeCircle = SkillLoaderView(frame: CGRect(x: 0 + 10, y: (self.view.bounds.height / 2) + (circleHeight / 2), width: circleWidth, height: circleHeight), start: 0, end: 70, interval: 0.0714, completion: 0.75, color: UIColor.yellow, title: "C")
 
-        let fourCircle = SkillLoaderView(frame: CGRect(x: (self.view.bounds.width / 2) + 10, y: (self.view.bounds.height / 2) + (circleHeight / 2), width: circleWidth, height: circleHeight), start: 0, end: 80, interval: 0.0625, completion: 0.8, color: UIColor.cyan, title: "Python")
+        let fourCircle = SkillLoaderView(frame: CGRect(x: (self.view.bounds.width / 2) + 10, y: (self.view.bounds.height / 2) + (circleHeight / 2), width: circleWidth, height: circleHeight), start: 0, end: 80, interval: 0.0625, completion: 0.45, color: UIColor.cyan, title: "R")
         
         view.addSubview(oneCircle)
         view.addSubview(twoCircle)

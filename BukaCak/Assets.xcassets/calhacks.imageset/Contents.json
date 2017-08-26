@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "calhacks.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "AI.jpg",
       "scale" : "2x"
     },
     {
